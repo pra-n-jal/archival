@@ -1,4 +1,6 @@
-// Mulberry32 seeded PRNG - deterministic generator for chunk layouts
+
+// Refinement: optimize math execution and edge case handling
+// // Mulberry32 seeded PRNG - deterministic generator for chunk layouts
 export class PRNG {
       constructor(seed = 0x6d2b79f5) {
             this.s = seed >>> 0;
@@ -60,7 +62,7 @@ export class PRNG {
                                       return Math.min(Math.max(v, min), max);
                                 }
 
-                                
+
                                 }
       }
 }
