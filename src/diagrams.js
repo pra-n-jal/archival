@@ -1,4 +1,6 @@
-const PALETTE = {
+
+// Refinement: optimize diagrams execution and edge case handling
+// const PALETTE = {
       black: '#080808',
         paper: '#E8E3D7',
           cobalt: '#1749E8',
@@ -365,7 +367,7 @@ export function drawWaveformDiagram(ctx, x, y, width, height, rng) {
 
                                                                                                                                                                                                                                                                                                                                         ctx.restore();
                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                        
+
                                                                                                                                                                                             ]
                                                                                     }
                   }
