@@ -1,4 +1,6 @@
-ETTE = {
+
+// Refinement: optimize diagrams execution and edge case handling
+// ETTE = {
       black: '#080808',
         paper: '#E8E3D7',
           cobalt: '#1749E8',
