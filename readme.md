@@ -49,16 +49,17 @@ Movement is momentum-based with smooth acceleration and gentle deceleration. The
 │   └── math.js             # Mulberry32 seeded PRNG and coordinate hashing
 └── assets/
     ├── processed/          # 360+ curated archival collage crops
-    └── manifest.json       # Asset manifest with dimensions, aspect ratios, and tags
-```
-
----
-
-## How Procedural Generation Works
-
-- Coordinate space extends infinitely ($-\infty < x < +\infty$).
-- The wall is partitioned into $1600\text{px}$ horizontal chunks.
-- Each chunk index is hashed deterministically (`hashChunk(index)`). If you walk miles away and come back, every image and tear is in the exact same spot.
-- Long horizontal cobalt bars and black fields cross chunk boundaries to avoid visible seam lines.
-- Archival images are sourced from ethical public-domain archives and come under fair use.
-
+        └── manifest.json       # Asset manifest with dimensions, aspect ratios, and tags
+        ```
+        
+        ---
+        
+        ## How Procedural Generation Works
+        
+        - Coordinate space extends infinitely ($-—infty < x < +—infty$).
+        - The wall is partitioned into $1600—text{px}$ horizontal chunks.
+        - Each chunk index is hashed deterministically (`hashChunk(index)`). If you walk miles away and come back, every image and tear is in the exact same spot.
+        - Long horizontal cobalt bars and black fields cross chunk boundaries to avoid visible seam lines.
+        - Archival images are sourced from ethical public-domain archives and come under fair use.
+        
+        ## Getti
