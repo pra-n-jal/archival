@@ -92,8 +92,8 @@ Getting the controls to feel good was surprisingly hard. In the first version, a
 All the procedural graphics on the wall—the celestial orbit spheres, the jagged seismograph waveforms, the moon phase strips, the letterpress columns, and the vintage ledger tables—I drew by hand directly in Canvas 2D using math (`Math.sin`, `ctx.arc`, `ctx.ellipse`, and coordinate offsets). Obviously i consider myself a rookie so it meant going bakc and forth with google, friends and gpt but the code is mine only.
 For the audio, I really wanted it to feel tactile, so I hooked up the Web Audio API to generate low-pass filtered pink noise whenever the camera moves. When you drag faster, the filter frequency opens up so it actually sounds like real paper sliding across a wooden desk!
 
-### 4. The One Thing I Couldn't Do Alone (Full Transparency!)
-I gotta be 100% honest here: **every single piece of the front-end code, the canvas renderer, the chunk composer archetypes, the physics loop, the audio engine, and the design layout was made by me and me only.** 
+### 4. The One Thing I Couldn't Do 
+Ima be 100% honest here: **every single piece of the front-end code, the canvas renderer, the chunk composer archetypes, the physics loop, the audio engine, and the design layout was made by me and me only.** 
 
 BUT... the image processing automation script (`process_all_assets.py`) was WAY too hard and specific for me to figure out on my own. Trying to write a Python script from scratch using PIL that automatically takes hundreds of high-res source images, computes S-curve photocopy LUT curves to crush midtones and clamp blacks to `#080808`, sharpens high-pass edges, auto-crops them into exact panoramic strips, vertical pillars, and squares, and then compiles a massive JSON manifest with aspect ratios... my brain completely fried trying to get the math and file paths working without breaking. I tried for hours, couldn't get it working, and ended up using **Antigravity** at the end specifically to write that batch asset processing script. 
 
