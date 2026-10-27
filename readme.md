@@ -1,3 +1,5 @@
+![previeww][assets\preview.jpeg]
+
 # HYPERSTITION
 
 An endless, interactive archival collage rendered on HTML5 Canvas.
@@ -63,3 +65,5 @@ Movement is momentum-based with smooth acceleration and gentle deceleration. The
         - Archival images are sourced from ethical public-domain archives and come under fair use.
         
         ## Getti
+
+[def]: assets\preview.jpeg
