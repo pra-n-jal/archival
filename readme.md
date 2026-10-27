@@ -1,4 +1,5 @@
-![previeww][assets\preview.jpeg]
+<img width="1904" height="870" alt="preview" src="https://github.com/user-attachments/assets/969a2888-43a2-4935-ad9d-d88e8b5f1cc9" />
+
 
 # HYPERSTITION
 
