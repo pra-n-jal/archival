@@ -1,111 +1,109 @@
 * {
-      margin: 0;
-        padding: 0;
-          box-sizing: border-box;
-            user-select: none;
-              -webkit-user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 html, body {
-      width: 100%;
-        height: 100%;
-          overflow: hidden;
-            background-color: #080808;
-              font-family: "Courier New", Courier, monospace;
-                color: #080808;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #080808;
+  font-family: "Courier New", Courier, monospace;
+  color: #080808;
   cursor: grab;
 }
 
 body:active {
-      cursor: grabbing;
+  cursor: grabbing;
 }
 
 #wall-canvas {
-      position: absolute;
-        top: 0;
-          left: 0;
-            width: 100%;
-              height: 100%;
-                display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .intro-prompt {
-      position: absolute;
-        top: 50%;
-          left: 50%;
-            transform: translate(-50%, -50%);
-              background-color: #080808;
-                color: #E8E3D7;
-                  padding: 24px 36px;
-                    text-align: center;
-                      border-left: 6px solid #1749E8;
-                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-                          pointer-events: none;
-                            transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
-                              z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #080808;
+  color: #E8E3D7;
+  padding: 24px 36px;
+  text-align: center;
+  border-left: 6px solid #1749E8;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 100;
 }
 
 .intro-prompt.hidden {
-      opacity: 0 !important;
-        pointer-events: none !important;
-          visibility: hidden;
-            transform: translate(-50%, -46%);
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden;
+  transform: translate(-50%, -46%);
 }
 
 .prompt-text {
-      font-size: 15px;
-        font-weight: bold;
-          letter-spacing: 3px;
-            margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
 }
 
 .prompt-sub {
-      font-size: 10px;
-        letter-spacing: 1.5px;
-          opacity: 0.65;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  opacity: 0.65;
 }
 
 .archival-header {
-      position: absolute;
-        top: 18px;
-          left: 24px;
-            right: 24px;
-              display: flex;
-                justify-content: space-between;
-                  align-items: center;
-                    pointer-events: none;
-                      z-index: 50;
-                        font-size: 11px;
-                          letter-spacing: 2px;
-                            color: #080808;
-                              mix-blend-mode: hard-light;
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  right: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+  z-index: 50;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #080808;
+  mix-blend-mode: hard-light;
 }
 
 .archival-title {
-      font-family: "Times New Roman", Times, Georgia, serif;
-        font-size: 13px;
-          font-weight: bold;
-            letter-spacing: 2px;
-              text-transform: uppercase;
-                background-color: rgba(232, 227, 215, 0.85);
-                  padding: 4px 8px;
-                    border: 1px solid rgba(8, 8, 8, 0.3);
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgba(232, 227, 215, 0.85);
+  padding: 4px 8px;
+  border: 1px solid rgba(8, 8, 8, 0.3);
 }
 
 .archival-title .dim {
-      font-weight: normal;
-        opacity: 0.65;
+  font-weight: normal;
+  opacity: 0.65;
 }
 
 .archival-meta {
-      background-color: rgba(232, 227, 215, 0.85);
-        padding: 4px 8px;
-          border: 1px solid rgba(8, 8, 8, 0.3);
+  background-color: rgba(232, 227, 215, 0.85);
+  padding: 4px 8px;
+  border: 1px solid rgba(8, 8, 8, 0.3);
 }
 
 .sep {
-      margin: 0 6px;
-        opacity: 0.4;
-}
-
+  margin: 0 6px;
+  opacity: 0.4;
 }
