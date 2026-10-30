@@ -76,4 +76,5 @@ Movement is momentum-based with smooth acceleration and gentle deceleration. The
 - Archival images are sourced from ethical public-domain archives and come under fair use.
 
 ---
-
+## AI declaration
+The website started out as an ambitious idea, the problem was that i couldnt automate the photobashing( I have experience with the style but automation was way too confusing) and the query was way too specific for me to get any help online or from friends, the automations logic scripts are highly ai assisted but everything else is hand coded. blehh
